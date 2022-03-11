@@ -8,6 +8,7 @@
 int main(void)
 {
 	char c = '0';
+	char d = 'a';
 
 	while (c <= '9')
 	{
@@ -15,12 +16,10 @@ int main(void)
 		c++;
 	}
 
-	char num = 'a';
-
-	while (num <= 'f')
+	while (d <= 'f')
 	{
-		putchar(num);
-		num++;
+		putchar(d);
+		d++;
 	}
 
 	putchar('\n');

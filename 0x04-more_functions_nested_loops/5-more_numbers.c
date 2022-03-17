@@ -12,7 +12,7 @@ int m = 0;
 
 while (m < 10)
 {
-while (n < 15)
+while (n <= 14)
 {
 k = n;
 if (n > 9)

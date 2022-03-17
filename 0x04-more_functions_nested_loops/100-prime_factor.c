@@ -1,27 +1,26 @@
 #include <stdio.h>
-#include <math.h>
+
 /**
  * main - prime numbers
  *
- * Return: Always 0.
+ * Return: 0
  */
+
 int main(void)
 {
+long num = 612852475143;
+long divisor = 2;
+long larg_prim = 0;
 
-unsigned int long n = 612852475143, a = (int) sqrt(n);
-
-while (1)
+while (num != 1)
 {
-
-if (n % a == 0)
+if (num % divisor == 0)
 {
-printf("%lu \n", n / a);
-break;
+num = num / divisor;
+larg_prim = divisor;
 }
-a--;
-
+divisor += 1;
 }
-
+printf("%ld\n", larg_prim);
 return (0);
 }
-

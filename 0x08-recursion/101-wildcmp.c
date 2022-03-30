@@ -2,9 +2,7 @@
 #include <stdio.h>
 
 /**
- * wildcmp -  function that compares two strings and returns 1 
-            if the strings can be considered identical,
-			otherwise return 0
+ * wildcmp -  function that compares two strings and returns 1
  * @s1: string
  * @s2: string
  * Return: Always 0.
@@ -16,7 +14,7 @@ return (checker(s1, s2, 0, 0, -1));
 }
 
 /**
- * checkLast - check last char of s2 when s1 ends
+ * _last - check last char of s2 when s1 ends
  * @s: string
  * @i: int
  * Return: 0 or 1

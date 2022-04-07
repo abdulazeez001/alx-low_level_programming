@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _puts - prints a string, followed by a new line,
@@ -26,7 +27,7 @@ while (str[i])
 
 int _atoi(const char *s)
 {
-    int sign = 1;
+	int sign = 1;
 	unsigned long int resp = 0, firstNum, i;
 
 	for (firstNum = 0; !(s[firstNum] >= 48 && s[firstNum] <= 57); firstNum++)

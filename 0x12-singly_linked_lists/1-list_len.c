@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * list_len - return linked list length.
+ * list_len - returns linked list length.
  * @h: linked list head.
  * Return: lenght of the linked list.
  */

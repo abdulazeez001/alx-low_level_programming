@@ -14,7 +14,8 @@ unsigned int binary_to_uint(const char *b)
 
 	if (b[index] == '\0')
 		return (0);
-	while (b[index] == '0' || b[index] == '1')
+
+	while ((b[index] == '0') || (b[index] == '1'))
 	{
 		total <<= 1;
 		total += b[index] - '0';

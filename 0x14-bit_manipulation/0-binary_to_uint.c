@@ -21,5 +21,5 @@ unsigned int binary_to_uint(const char *b)
 		index++;
 	}
 
-	return (num);
+	return (total);
 }
